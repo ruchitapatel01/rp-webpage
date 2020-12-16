@@ -48,3 +48,29 @@ li a:hover
 {
 	margin: 50px 0;
 }
+.certi {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: darkorange;
+  margin-bottom: 20px;
+}
+.polaroid {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  /*padding-top: 15px;*/
+  /*margin-left: 10px;*/
+  margin-bottom: 20px;
+}
+.polaroid:hover{
+	color: darkorange;
+	box-shadow: 0 6px 20px 0 rgba(255, 140, 0, 1), 0 6px 20px 0 rgba(255, 140, 0, 1);
+	/*box-shadow: 10px 10px 15px darkorange;*/
+	transition: 0.5s;
+	border: none;
+}
+.text {
+  padding: 10px;
+  /*text-align: center;*/
+}
